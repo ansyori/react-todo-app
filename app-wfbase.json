@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "sdkVersion": "22.0.0",
+	"name": "Simple Todos",
+    "description": "My Simple Todo App with Firebase",
+    "slug": "MyTodoAppFirebase",
+    "privacy": "public",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+	
+	"ios": {
+		 "bundleIdentifier": "com.ansyori.mytodoapp"
+	   },
+	   "android": {
+		 "package": "com.ansyori.mytodoapp",
+		 "icon": "./assets/images/icon.png",
+		 "versionCode":1,
+		 "permissions" : [ "CAMERA","READ_PHONE_STATE","RECORD_AUDIO","READ_CONTACTS" ]
+	   }
+  }
+}
